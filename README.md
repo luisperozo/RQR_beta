@@ -11,8 +11,8 @@ RQR-Ollama es una herramienta de automatización de redes que integra modelos de
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/<usuario>/RQR-Ollama.git
-   cd RQR-Ollama
+   git clone https://github.com/<usuario>/RQR_beta.git
+   cd RQR_beta
    ```
 2. Crea un entorno virtual (opcional) e instala las dependencias:
    ```bash
@@ -39,6 +39,3 @@ python web_ui.py
 - `SSH_USERNAME`, `SSH_PASSWORD`, `SSH_SECRET`: Credenciales para los dispositivos de red.
 - `OLLAMA_MODEL`: Nombre del modelo a usar (por defecto `llama3.1`).
 - `PORT`: Puerto para la interfaz web (por defecto `8000`).
-
-## Licencia
-Proyecto distribuido bajo la licencia MIT.
