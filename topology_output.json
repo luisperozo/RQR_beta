@@ -1,0 +1,126 @@
+[
+    {
+        "BR01": [
+            {
+                "local_interface": "Gig 0/0",
+                "neighbor": "DSW01",
+                "remote_interface": "Gig 1/3"
+            },
+            {
+                "local_interface": "Gig 0/1",
+                "neighbor": "DSW02",
+                "remote_interface": "Gig 1/3"
+            }
+        ]
+    },
+    {
+        "DSW01": [
+            {
+                "local_interface": "Gig 1/3",
+                "neighbor": "BR01",
+                "remote_interface": "Gig 0/0"
+            },
+            {
+                "local_interface": "Gig 0/0",
+                "neighbor": "ASW01",
+                "remote_interface": "Gig 0/0"
+            },
+            {
+                "local_interface": "Gig 0/2",
+                "neighbor": "ASW03",
+                "remote_interface": "Gig 0/0"
+            },
+            {
+                "local_interface": "Gig 0/1",
+                "neighbor": "ASW02",
+                "remote_interface": "Gig 0/0"
+            },
+            {
+                "local_interface": "Gig 1/0",
+                "neighbor": "DSW02",
+                "remote_interface": "Gig 1/0"
+            },
+            {
+                "local_interface": "Gig 0/3",
+                "neighbor": "DSW02",
+                "remote_interface": "Gig 0/3"
+            }
+        ]
+    },
+    {
+        "DSW02": [
+            {
+                "local_interface": "Gig 1/3",
+                "neighbor": "BR01",
+                "remote_interface": "Gig 0/1"
+            },
+            {
+                "local_interface": "Gig 0/0",
+                "neighbor": "ASW01",
+                "remote_interface": "Gig 0/1"
+            },
+            {
+                "local_interface": "Gig 0/2",
+                "neighbor": "ASW03",
+                "remote_interface": "Gig 0/1"
+            },
+            {
+                "local_interface": "Gig 0/1",
+                "neighbor": "ASW02",
+                "remote_interface": "Gig 0/1"
+            },
+            {
+                "local_interface": "Gig 0/3",
+                "neighbor": "DSW01",
+                "remote_interface": "Gig 0/3"
+            },
+            {
+                "local_interface": "Gig 1/0",
+                "neighbor": "DSW01",
+                "remote_interface": "Gig 1/0"
+            }
+        ]
+    },
+    {
+        "ASW01": [
+            {
+                "local_interface": "Gig 0/0",
+                "neighbor": "DSW01",
+                "remote_interface": "Gig 0/0"
+            },
+            {
+                "local_interface": "Gig 0/1",
+                "neighbor": "DSW02",
+                "remote_interface": "Gig 0/0"
+            }
+        ]
+    },
+    {
+        "ASW02": [
+            {
+                "local_interface": "Gig 0/0",
+                "neighbor": "DSW01",
+                "remote_interface": "Gig 0/1"
+            },
+            {
+                "local_interface": "Gig 0/1",
+                "neighbor": "DSW02",
+                "remote_interface": "Gig 0/1"
+            }
+        ]
+    },
+    {
+        "ASW03": [
+            {
+                "local_interface": "Gig 0/0",
+                "neighbor": "DSW01",
+                "remote_interface": "Gig 0/2"
+            },
+            {
+                "local_interface": "Gig 0/1",
+                "neighbor": "DSW02",
+                "remote_interface": "Gig 0/2"
+            }
+        ]
+    }
+]

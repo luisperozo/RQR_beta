@@ -1,0 +1,44 @@
+[
+    {
+        "hostname": "BR01",
+        "ip": "10.255.255.1",
+        "device_type": "cisco_ios",
+        "tag": "Router",
+        "description": "Main router of the network, gives connectivity to distribution switches"
+    },
+    {
+        "hostname": "DSW01",
+        "ip": "10.0.0.1",
+        "device_type": "cisco_ios",
+        "tag": "Distribution Switch",
+        "description": "Primary distribution switch of the network, acts as the default gateway for all VLANs when primary is down"
+    },
+    {
+        "hostname": "DSW02",
+        "ip": "10.0.0.2",
+        "device_type": "cisco_ios",
+        "tag": "Distribution Switch",
+        "description": "Backup distribution switch of the network, acts as the default gateway for all VLANs when primary is down"
+    },
+    {
+        "hostname": "ASW01",
+        "ip": "10.0.0.11",
+        "device_type": "cisco_ios",
+        "tag": "Access Switch",
+        "description": "Access Switch 1"
+    },
+    {
+        "hostname": "ASW02",
+        "ip": "10.0.0.12",
+        "device_type": "cisco_ios",
+        "tag": "Access Switch",
+        "description": "Access Switch 2"
+    },
+    {
+        "hostname": "ASW03",
+        "ip": "10.0.0.13",
+        "device_type": "cisco_ios",
+        "tag": "Access Switch",
+        "description": "Access Switch 3"
+    }
+]

@@ -1,0 +1,5 @@
+aiohttp==3.12.15
+ollama==0.5.3
+netmiko==4.6.0
+networkx==3.5
+matplotlib==3.10.6
